@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="css/reset.css">
+   <link rel="stylesheet" href="css/style.css">
+   <title>Lesson 22</title>
+</head>
+
+<body>
+   <header></header>
+   <main>
+      <div class="wrapper">
+         <div class="homework">
+            <div class="one">
+               <h2>Основы синтаксиса JAVASCRIPT (видео 2)</h2>
+               <p class="item">Варіант 1. Вірно </p>
+               <p>console.log('Учим JS')</p>
+               <p class="item">Варіант 2. Вірно, але краще поставити крапку з комою після запису console.log('JS')</p>
+               <p>console.log('JS')</p>
+               <p>console.log('Учим')</p>
+               <p class="item">Варіант 3. Невірно, потрібно розділити на 2 рядки, після першого рядку
+                  console.log('Учим') поставити
+                  крапку з комою</p>
+               <p>console.log('Учим') console.log('JS')</p>
+               <p class="item">Варіант 4. Невірно, не закриті лапки у першому рядку.</p>
+               <p>console.log('Учим)</p>
+               <p>console.log('JS')</p>
+            </div>
+            <div class="two">
+               <h2>Переменные в JAVASCRIPT. Константы. Ключевые слова LET CONST VAR.(видео 3)</h2>
+               <p class="item">1) Придумай имя переменной для хранения цвета
+                  глаз пользователя сайта</p>
+               <p>let usersEyesColor = "Зелений"</p>
+
+               <p class="item">2) Объяви две переменных - user и userName.
+                  Присвой значение "Вася" переменной userName.
+                  Скопируй значение переменной userName в переменную user.
+                  Выведи в консоль переменную user. Результат должен быть Вася</p>
+               <p>let user; let userName = 'Вася'</p>
+               <p>user = userName;</p>
+               <p>console.log(user);</p>
+
+               <p class="item">3) Напиши в комментариях какой вариант
+                  либо варианты записаны НЕ верно?</p>
+
+               <p class="item">Вариант №1 Невірно, потрібна крапка з комою після 'Вася'</p>
+               <p>let user = 'Вася' let age = 36</p>
+
+               <p class="item">Вариант №2 Вірно</p>
+               <p>let myage = 36;</p>
+
+               <p class="item">Вариант №3 Вірно</p>
+               <p>const BLOCK_SIZE = 14 + 50;</p>
+
+               <p class="item">Вариант №4 Вірно</p>
+               const BLOCK_HEIGHT = 100;
+
+               <p class="item">Вариант №5 Вірно</p>
+               if (true) {
+               var size = 15;
+               }
+               console.log(size);
+            </div>
+            <div class="three">
+               <h2>Типы данных JAVASCRIPT. Null String Undefined Boolean Number и другие. (Видео 4)</h2>
+               <p class="item">Вариант №1 Невірно</p>
+               <p>let userAge = 36;</p>
+               <p>let userInfo = "Фрилансер ${userAge}";</p>
+               <p class="item">Вариант №2 Невірно, значення Infinity</p>
+               <p>let userHeight = 145 / 0;</p>
+               <p>//Вернется значение NaN</p>
+               <p>console.log(userHeight);</p>
+               <p class="item">Вариант №3 Невірно, undefined</p>
+               <p>let userName;</p>
+               <p>//Вернется тип данных Null</p>
+               <p>console.log(typeof userName);</p>
+               <p class="item">Вариант №4 Вірно</p>
+               <p>let userSize = "45" / "8";</p>
+               <p>//Вернется тип данных Number</p>
+               <p>console.log(typeof userSize);</p>
+            </div>
+         </div>
+      </div>
+   </main>
+   <footer></footer>
+   <script src="js/script.js"></script>
+</body>
+
+</html>
